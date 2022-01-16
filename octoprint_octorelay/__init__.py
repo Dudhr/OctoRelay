@@ -7,7 +7,8 @@ from octoprint.util import ResettableTimer
 from octoprint.util import RepeatedTimer
 
 import flask
-import RPi.GPIO as GPIO
+#modified to work with OrangePi boards
+import OPi.GPIO as GPIO
 import os
 
 GPIO.setmode(GPIO.BCM)

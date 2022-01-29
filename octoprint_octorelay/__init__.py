@@ -11,7 +11,7 @@ import flask
 import OPi.GPIO as GPIO
 import os
 
-GPIO.setmode(GPIO.BOARD)
+GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
 
 POLLING_INTERVAL = 0.3
